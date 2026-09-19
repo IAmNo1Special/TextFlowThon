@@ -11,3 +11,4 @@ jobs:
     with:
       python-version: "3.12"
       run-lint: false
+      install-command: "uv sync --extra test"
